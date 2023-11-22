@@ -1,0 +1,14 @@
+C:\Users\bdmtnz\Documents\Repos\BasicSkills\BasicSkills\bin\Debug\net8.0\BasicSkills.exe
+C:\Users\bdmtnz\Documents\Repos\BasicSkills\BasicSkills\bin\Debug\net8.0\BasicSkills.deps.json
+C:\Users\bdmtnz\Documents\Repos\BasicSkills\BasicSkills\bin\Debug\net8.0\BasicSkills.runtimeconfig.json
+C:\Users\bdmtnz\Documents\Repos\BasicSkills\BasicSkills\bin\Debug\net8.0\BasicSkills.dll
+C:\Users\bdmtnz\Documents\Repos\BasicSkills\BasicSkills\bin\Debug\net8.0\BasicSkills.pdb
+C:\Users\bdmtnz\Documents\Repos\BasicSkills\BasicSkills\obj\Debug\net8.0\BasicSkills.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bdmtnz\Documents\Repos\BasicSkills\BasicSkills\obj\Debug\net8.0\BasicSkills.AssemblyInfoInputs.cache
+C:\Users\bdmtnz\Documents\Repos\BasicSkills\BasicSkills\obj\Debug\net8.0\BasicSkills.AssemblyInfo.cs
+C:\Users\bdmtnz\Documents\Repos\BasicSkills\BasicSkills\obj\Debug\net8.0\BasicSkills.csproj.CoreCompileInputs.cache
+C:\Users\bdmtnz\Documents\Repos\BasicSkills\BasicSkills\obj\Debug\net8.0\BasicSkills.dll
+C:\Users\bdmtnz\Documents\Repos\BasicSkills\BasicSkills\obj\Debug\net8.0\refint\BasicSkills.dll
+C:\Users\bdmtnz\Documents\Repos\BasicSkills\BasicSkills\obj\Debug\net8.0\BasicSkills.pdb
+C:\Users\bdmtnz\Documents\Repos\BasicSkills\BasicSkills\obj\Debug\net8.0\BasicSkills.genruntimeconfig.cache
+C:\Users\bdmtnz\Documents\Repos\BasicSkills\BasicSkills\obj\Debug\net8.0\ref\BasicSkills.dll
