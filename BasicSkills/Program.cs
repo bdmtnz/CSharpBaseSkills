@@ -2,5 +2,5 @@
 using BasicSkills.Base;
 using BasicSkills.Linq;
 
-IRunnable runnable = new ToDictionary();
+IRunnable runnable = new Query();
 runnable.Run();
