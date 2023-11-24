@@ -3,5 +3,5 @@ using BasicSkills.Base;
 using BasicSkills.Lambdas;
 using BasicSkills.Linq;
 
-IRunnable runnable = new Tupla();
+IRunnable runnable = new BasicSkills.Delegates.Delegate();
 await runnable.Run();
