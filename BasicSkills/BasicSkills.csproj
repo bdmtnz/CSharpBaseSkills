@@ -8,8 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Generic\Interfaces\" />
-    <Folder Include="Generic\Classes\" />
     <Folder Include="Events\" />
   </ItemGroup>
 
