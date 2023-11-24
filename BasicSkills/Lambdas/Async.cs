@@ -9,30 +9,17 @@ using System.Threading.Tasks;
 
 namespace BasicSkills.Lambdas
 {
-    internal class Async : Base<Product>, IRunnable
+    internal class Async : IRunnable
     {
-        public Action<int, string> Lambda { get; set; }
-
-        public Async() : base()
-        {
-            Items.AddRange(new[]
-            {
-                new Product() {Code = 0, Name = "Jugo"},
-                new Product() {Code = 1, Name = "Pelota"},
-                new Product() {Code = 0, Name = "Jugo"},
-                new Product() {Code = 2, Name = "Mouse"},
-            });
-            Lambda = (n, s) =>
-            {
-                var r = n * s.Length;
-                var line = string.Format("Lambda {0}", new object[] { r });
-                Console.WriteLine(line);
-            };
-        }
+        public Async() : base() { }
 
         public async Task Run()
         {
-            var asyncLambda = MethodAsync;
+            var asyncLambda = async () =>
+            {
+                var asyncMethod = MethodAsync;
+                await asyncMethod();
+            };
             await asyncLambda();
         }
 
