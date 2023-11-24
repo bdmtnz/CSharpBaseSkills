@@ -32,9 +32,12 @@ namespace BasicSkills.Delegates
             #region Contravariance
             Console.WriteLine("Contravariance");
             Event += MultiHandler;
+            MouseEvent += MultiHandler;
+
             Event(this, new KeyEventArgs("Keyboard dispatch"));
-            Event(this, new MouseEventArgs("Mouse dispatch"));
-            Event(null, new AppEventArgs("App dispatch"));
+            MouseEvent(this, new MouseEventArgs("Mouse dispatch"));
+
+            Event(null, new MouseEventArgs("App dispatch"));
             #endregion
         }
     }

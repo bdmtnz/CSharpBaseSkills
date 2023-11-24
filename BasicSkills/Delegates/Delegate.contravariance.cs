@@ -28,6 +28,7 @@ namespace BasicSkills.Delegates
     public partial class Delegate
     {
         public event EventHandler<AppEventArgs> Event;
+        public event EventHandler<MouseEventArgs> MouseEvent;
         public string SystemDate { get; set; }
 
         // Event handler that accepts a parameter of the EventArgs type.  
