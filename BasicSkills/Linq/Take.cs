@@ -17,7 +17,7 @@ namespace BasicSkills.Linq
             });
         }
 
-        public void Run()
+        public async Task Run()
         {
             var takeWhile = Items.TakeWhile(item => item % 2 != 0);
             var take = Items.Take(new Range(2, 5));

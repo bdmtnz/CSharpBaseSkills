@@ -35,7 +35,7 @@ namespace BasicSkills.Linq
             });
         }
 
-        public void Run()
+        public async Task Run()
         {
             var join = Items.Join(
                  Stores,

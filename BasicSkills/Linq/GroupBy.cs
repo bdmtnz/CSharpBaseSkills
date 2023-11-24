@@ -41,7 +41,7 @@ namespace BasicSkills.Linq
             });
         }
 
-        public void Run()
+        public async Task Run()
         {
             var groupBy = Items.GroupBy(
                 item => item.Code,

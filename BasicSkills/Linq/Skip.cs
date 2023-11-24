@@ -16,7 +16,7 @@ namespace BasicSkills.Linq
                 6, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
             });
         }
-        public void Run()
+        public async Task Run()
         {
             var skip = Items.Skip(5);
             var skipWhile = Items.SkipWhile(item => item >= 5);

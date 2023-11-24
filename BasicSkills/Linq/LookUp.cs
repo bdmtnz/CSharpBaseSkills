@@ -21,7 +21,7 @@ namespace BasicSkills.Linq
             });
         }
 
-        public void Run()
+        public async Task Run()
         {
             var lookUp = Items.ToLookup(item => item.Code);
             var builder = new StringBuilder();

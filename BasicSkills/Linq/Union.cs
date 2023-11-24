@@ -24,7 +24,7 @@ namespace BasicSkills.Linq
             });
         }
 
-        public void Run()
+        public async Task Run()
         {
             var union = Items.Union(Other);
             var unionBy = Items.UnionBy(Other, item => item);

@@ -20,7 +20,7 @@ namespace BasicSkills.Linq
             fruits.Add("Banana");
         }
 
-        public void Run()
+        public async Task Run()
         {
             var ofType = fruits.OfType<string>().ToList();
             var builder = new StringBuilder();

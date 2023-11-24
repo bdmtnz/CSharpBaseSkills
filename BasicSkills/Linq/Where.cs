@@ -17,7 +17,7 @@ namespace BasicSkills.Linq
             });
         }
 
-        public void Run()
+        public async Task Run()
         {
             var moreThanFive = Items.Where(item => item > 5);
             var minusThanFive = Items.Where((item) => item < 5);

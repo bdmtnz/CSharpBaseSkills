@@ -8,7 +8,7 @@ namespace BasicSkills.Base
 {
     public interface IRunnable
     {
-        void Run();
+        Task Run();
     }
 
     public interface IRunnable<T, D>

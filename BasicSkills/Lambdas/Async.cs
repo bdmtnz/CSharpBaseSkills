@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 
 namespace BasicSkills.Lambdas
 {
-    public class Expression : Base<Product>, IRunnable
+    internal class Async : Base<Product>, IRunnable
     {
         public Action<int, string> Lambda { get; set; }
 
-        public Expression() : base()
+        public Async() : base()
         {
             Items.AddRange(new[]
             {
@@ -28,14 +28,20 @@ namespace BasicSkills.Lambdas
                 var line = string.Format("Lambda {0}", new object[] { r });
                 Console.WriteLine(line);
             };
-
         }
 
         public async Task Run()
         {
-            var builder = new StringBuilder();
-            Lambda(2, "Lol2");
-            Console.WriteLine(builder.ToString());
+            var asyncLambda = MethodAsync;
+            await asyncLambda();
+        }
+
+        private async Task MethodAsync()
+        {
+            // The following line simulates a task-returning asynchronous process.
+            Console.WriteLine("Text before delay");
+            await Task.Delay(1000);
+            Console.WriteLine("Text after delay");
         }
     }
 }

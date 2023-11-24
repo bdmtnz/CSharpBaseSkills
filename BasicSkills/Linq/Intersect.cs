@@ -42,7 +42,7 @@ namespace BasicSkills.Linq
             });
         }
 
-        public void Run()
+        public async Task Run()
         {
             var intersect = Numbers.Intersect(NumbersInt);
             var intersectBy = Items.IntersectBy(ItemsInt.Select(x => x.Code),  (item) => item.Code);

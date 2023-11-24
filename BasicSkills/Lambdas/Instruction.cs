@@ -31,7 +31,7 @@ namespace BasicSkills.Lambdas
             };
         }
 
-        public void Run()
+        public async Task Run()
         {
             var builder = new StringBuilder();
             builder.AppendLine(string.Format("Lambda {0}", new object[] { Lambda(2, "Lol") }));

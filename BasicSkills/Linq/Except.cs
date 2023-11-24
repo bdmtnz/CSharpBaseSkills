@@ -23,7 +23,7 @@ namespace BasicSkills.Linq
             });
         }
 
-        public void Run()
+        public async Task Run()
         {
             var except = Items.Except(Duplicate);
             var exceptBy = Items.ExceptBy(Duplicate, Items => Items);

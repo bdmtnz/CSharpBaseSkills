@@ -9,7 +9,7 @@ namespace BasicSkills.Delegates
 {
     public class Callback : IRunnable
     {
-        public void Run()
+        public async Task Run()
         {
             throw new NotImplementedException();
         }

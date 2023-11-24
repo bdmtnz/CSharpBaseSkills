@@ -17,7 +17,7 @@ namespace BasicSkills.Linq
             });
         }
 
-        public void Run()
+        public async Task Run()
         {
             var prepend = Items.Prepend(0);
             var builder = new StringBuilder();

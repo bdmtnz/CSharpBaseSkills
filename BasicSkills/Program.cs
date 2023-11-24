@@ -3,5 +3,5 @@ using BasicSkills.Base;
 using BasicSkills.Lambdas;
 using BasicSkills.Linq;
 
-IRunnable runnable = new Expression();
-runnable.Run();
+IRunnable runnable = new Async();
+await runnable.Run();

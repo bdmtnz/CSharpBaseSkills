@@ -29,7 +29,7 @@ namespace BasicSkills.Linq
             });
         }
 
-        public void Run()
+        public async Task Run()
         {
             var zip = Items.Zip(Products, (item, product) =>
             {

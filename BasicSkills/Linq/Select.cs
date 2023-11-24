@@ -47,7 +47,7 @@ namespace BasicSkills.Linq
             });
         }
 
-        public void Run()
+        public async Task Run()
         {
             var select = Items.Select(x => x.Name);
             var selectMany = petOwners.SelectMany(

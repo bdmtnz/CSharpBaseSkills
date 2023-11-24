@@ -21,7 +21,7 @@ namespace BasicSkills.Linq
             });
         }
 
-        public void Run()
+        public async Task Run()
         {
             var distinct = Items.Distinct(new ProductComparer());
             var distinctBy = Items.DistinctBy(item => item.Name);
